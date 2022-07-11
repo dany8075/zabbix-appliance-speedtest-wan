@@ -2,7 +2,7 @@
 Description=Run a speedtest every 10 minutes
 
 [Timer]
-OnCalendar=*:0/10
+OnCalendar=*-*-* *:00:00
 # RandomizedDelaySec=30
 
 [Install]
